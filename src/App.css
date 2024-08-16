@@ -1,0 +1,102 @@
+#root {
+  margin: 0 auto;
+}
+
+/*
+  My code below
+*/
+
+.card-container {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  min-width: 600px;
+  max-width: 700px;
+}
+
+.trip-image {
+  width: 220px;
+  border-radius: 5%;
+}
+
+.card-info {
+  margin-left: 20px;
+}
+
+.location-line {
+  display: flex;
+  align-items: baseline;
+  font-size: 14px;
+
+}
+
+.location-line a {
+  margin-left: 20px;
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.location-line a:hover {
+  color: #F55A5A;
+}
+
+.card-info h2 {
+  margin: 0;
+}
+
+.card-info h3 {
+  margin-bottom: 0;
+}
+
+.card-container p {
+  margin: 0;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.date,
+.description {
+  font-size: 16px;
+}
+
+.country {
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.location-link {
+  letter-spacing: 1px;
+}
+
+.location-icon {
+  color: #F55A5A;
+  margin-right: 3px;
+}
+
+.nav-bar {
+  background-color: #F55A5A;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  box-sizing: border-box;
+  padding: 1rem 0; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center horizontally */
+}
+
+.nav-bar h4 {
+  margin: 0;
+}
+
+.globe-icon {
+  margin-right: 6px;
+}
+
+.trips-list {
+  margin-top: 100px;
+}
